@@ -5,10 +5,10 @@ import { FaFacebook } from 'react-icons/fa';
 
 function RegisterPage() {
   return (
-    <Theme>
+    <Theme colorScheme="light" fontSize="medium" space="medium" radius="large">
       <Flex align="center" justify="center" height="100vh" p="4">
         <Box width="350px" p="4" style={{ boxShadow: '0 2px 10px rgba(0,0,0,0.1)' }} borderRadius="large">
-          <Heading size="6" mb="4" align="center">Create an Account 📝</Heading>
+          <Heading size="6" mb="4" align="center">Create an Account </Heading>
 
           {/* Social Sign Up */}
           <Flex direction="column" gap="3" mb="4">
