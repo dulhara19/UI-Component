@@ -21,9 +21,9 @@ function RegisterPage() {
               <FaFacebook size={22} style={{ marginRight: '10px' }} />
               Sign up with Facebook
             </Button>
+            <Text justifyContent="center" align="center" as="label" size="2">Or</Text>
           </Flex>
 
-          <Separator my="3" />
 
           {/* Register Form */}
           <Flex direction="column" gap="2" mb="4">
