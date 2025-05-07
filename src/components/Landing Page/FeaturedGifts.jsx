@@ -45,8 +45,8 @@ const FeaturedGifts = () => {
               style={{
                 width: 240,
                 padding: '1.5rem',
-                backgroundColor: isSpecial ? '#8B0000' : '#fff', // Crimson
-                color: isSpecial ? '#fff' : '#000',
+                backgroundColor: isSpecial ? 'pink' : '#fff', // Crimson
+                color: isSpecial ? 'black' : '#000',
                 borderRadius: '1rem',
                 boxShadow: isSpecial
                   ? '0 10px 25px rgba(255, 0, 191, 0.5)'
