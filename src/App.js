@@ -8,6 +8,7 @@ import AuthLayout from "./components/Auth/AuthLayout.jsx";
 import Navbar from "./components/Navigation/Navbar.jsx";
 import Sidebar from "./components/Navigation/Sidebar.jsx";
 import HeroSection from "./components/Landing Page/HeroSection.jsx";
+import FeaturedGifts from "./components/Landing Page/FeaturedGifts.jsx";
 
 //import { Theme } from "@radix-ui/themes/dist/cjs/index.js";
 // import { Theme } from "@radix-ui/themes";
@@ -25,6 +26,7 @@ function App() {
         <AuthLayout/>
         {/* <Sidebar /> */}
         <HeroSection />
+        <FeaturedGifts />
       </Theme>
     </div>
   );
