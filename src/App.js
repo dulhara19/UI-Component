@@ -7,6 +7,7 @@ import ForgotPassword from "./components/Auth/ForgotPassword.jsx";
 import AuthLayout from "./components/Auth/AuthLayout.jsx";
 import Navbar from "./components/Navigation/Navbar.jsx";
 import Sidebar from "./components/Navigation/Sidebar.jsx";
+import HeroSection from "./components/Landing Page/HeroSection.jsx";
 
 //import { Theme } from "@radix-ui/themes/dist/cjs/index.js";
 // import { Theme } from "@radix-ui/themes";
@@ -22,7 +23,8 @@ function App() {
         <RegisterPage />
         <ForgotPassword />
         <AuthLayout/>
-        <Sidebar />
+        {/* <Sidebar /> */}
+        <HeroSection />
       </Theme>
     </div>
   );
