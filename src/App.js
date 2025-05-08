@@ -14,6 +14,7 @@ import Footer from "./components/Navigation/Footer.jsx";
 import GiftCard from "./components/Product/GiftCard.jsx";
 import GiftGrid from "./components/Product/GiftGrid.jsx";
 import GiftShopPage from "./components/Product/SampleGifts.jsx";
+import GiftDetails from "./components/Product/GiftDetails.jsx";
 
 //import { Theme } from "@radix-ui/themes/dist/cjs/index.js";
 // import { Theme } from "@radix-ui/themes";
@@ -47,6 +48,7 @@ function App() {
   onAddToCart={(id) => console.log("Added gift with id:", id)}
 />
         <GiftShopPage />
+        <GiftDetails />
       </Theme>
     </div>
   );
