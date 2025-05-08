@@ -16,6 +16,7 @@ import GiftGrid from "./components/Product/GiftGrid.jsx";
 import GiftShopPage from "./components/Product/SampleGifts.jsx";
 import GiftDetails from "./components/Product/GiftDetails.jsx";
 import Cart from "./components/Cart & Checkout/Cart.jsx";
+import CheckoutForm from "./components/Cart & Checkout/CheckoutForm.jsx";
 
 //import { Theme } from "@radix-ui/themes/dist/cjs/index.js";
 // import { Theme } from "@radix-ui/themes";
@@ -51,6 +52,7 @@ function App() {
         <GiftShopPage />
         <GiftDetails />
         <Cart />
+        <CheckoutForm />
       </Theme>
     </div>
   );
