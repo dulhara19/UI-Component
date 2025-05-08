@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Card, Heading, TextField, Button, Flex, Text, Separator, Select } from '@radix-ui/themes';
+import { Box, Card, Heading, TextField, Button, Flex, Separator, Select } from '@radix-ui/themes';
 
 const CheckoutForm = () => {
   const [form, setForm] = useState({
