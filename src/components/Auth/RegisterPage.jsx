@@ -51,4 +51,23 @@ function RegisterPage() {
   );
 }
 
+import { signInWithPopup } from "firebase/auth";
+import { auth, googleProvider } from "../../firebaseConfig"; // adjust path
+
+const handleGoogleSignUp = async () => {
+  try {
+    const result = await signInWithPopup(auth, googleProvider);
+    const user = result.user;
+    console.log("Google user:", user);
+    // You can store user in context or redirect here
+  } catch (error) {
+    console.error("Google Sign In Error:", error);
+    alert("Failed to sign in with Google");
+  }
+};
+
+
+
+
+
 export default RegisterPage;
