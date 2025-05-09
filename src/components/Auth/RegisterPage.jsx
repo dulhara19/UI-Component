@@ -12,12 +12,11 @@ function RegisterPage() {
 
           {/* Social Sign Up */}
           <Flex direction="column" gap="3" mb="4">
-            
+
             <Button variant="soft" size="3" style={{ justifyContent: 'start' }} onClick={handleGoogleSignUp}>
              <FcGoogle size={22} style={{ marginRight: '10px' }} />
              Sign up with Google
           </Button>
-
 
             <Button variant="soft" color="blue" size="3" style={{ justifyContent: 'start' }}>
               <FaFacebook size={22} style={{ marginRight: '10px' }} />
