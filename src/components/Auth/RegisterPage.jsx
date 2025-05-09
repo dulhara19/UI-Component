@@ -15,7 +15,7 @@ function RegisterPage() {
             <Button variant="soft" size="3" style={{ justifyContent: 'start' }} onClick={handleGoogleSignUp}>
              <FcGoogle size={22} style={{ marginRight: '10px' }} />
              Sign up with Google
-</Button>
+          </Button>
 
 
             <Button variant="soft" color="blue" size="3" style={{ justifyContent: 'start' }}>
