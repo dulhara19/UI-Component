@@ -25,7 +25,6 @@ function RegisterPage() {
             <Text justifyContent="center" align="center" as="label" size="2">Or</Text>
           </Flex>
 
-
           {/* Register Form */}
           <Flex direction="column" gap="2" mb="4">
             <Text as="label" size="2">Full Name</Text>
